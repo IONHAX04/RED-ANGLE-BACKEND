@@ -5,6 +5,7 @@ import logger from "../../helper/logger";
 
 export class requestRepository {
   public async createRequest(data: any) {
+    console.log("data", data);
     const client: PoolClient = await getClient();
     try {
       const query = `

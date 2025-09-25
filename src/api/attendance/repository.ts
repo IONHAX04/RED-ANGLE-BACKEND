@@ -121,12 +121,31 @@ export class attendanceRepository {
   public async getAttendanceV1(employeeId?: number) {
     const client: PoolClient = await getClient();
     try {
-      let query = `SELECT * FROM public.employee_attendance ORDER BY date DESC;`;
+      let query = `
+      SELECT ea.*, 
+             e."firstName", 
+             e."lastName", 
+             e.email
+      FROM public.employee_attendance ea
+      JOIN public.employees e ON ea.employee_id = e.id
+      ORDER BY ea.date DESC;
+    `;
       let values: any[] = [];
+
       if (employeeId) {
-        query = `SELECT * FROM public.employee_attendance WHERE employee_id = $1 ORDER BY date DESC;`;
+        query = `
+        SELECT ea.*, 
+               e."firstName", 
+               e."lastName", 
+               e.email
+        FROM public.employee_attendance ea
+        JOIN public.employees e ON ea.employee_id = e.id
+        WHERE ea.employee_id = $1
+        ORDER BY ea.date DESC;
+      `;
         values = [employeeId];
       }
+
       const result = await client.query(query, values);
       logger.info("Repository: Attendance fetched", { count: result.rowCount });
       return { success: true, data: result.rows };
