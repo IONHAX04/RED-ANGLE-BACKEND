@@ -5,9 +5,9 @@ dotenv.config();
 
 const pool = new Pool({
   user: process.env.DB_USER || "postgres",
-  host: process.env.DB_HOST || "localhost",
-  database: process.env.DB_NAME || "redanglesoftware",
-  password: process.env.DB_PASSWORD || "ionhax",
+  host: process.env.DB_HOST || "103.91.187.40",
+  database: process.env.DB_NAME || "redangle",
+  password: process.env.DB_PASSWORD || "newpassword",
   port: Number(process.env.DB_PORT) || 5432,
 });
 

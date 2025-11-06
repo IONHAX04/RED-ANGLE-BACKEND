@@ -7,8 +7,26 @@ export class loginRoutes implements IRoute {
     server.route([
       {
         method: "POST",
-        path: "/api/v1/routes/login", 
+        path: "/api/v1/routes/login",
         handler: controller.loginDataV1,
+        config: { auth: false },
+      },
+      {
+        method: "POST",
+        path: "/api/v1/roles/add",
+        handler: controller.addRoleV1,
+        config: { auth: false },
+      },
+      {
+        method: "GET",
+        path: "/api/v1/roles/list",
+        handler: controller.listRolesV1,
+        config: { auth: false },
+      },
+      {
+        method: "PUT",
+        path: "/api/v1/roles/update",
+        handler: controller.updateRoleV1,
         config: { auth: false },
       },
     ]);

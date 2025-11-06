@@ -57,4 +57,120 @@ export class loginRepository {
       client.release();
     }
   }
+
+  public async addRoleRepoV1(roleData: any) {
+    const client: PoolClient = await getClient();
+    try {
+      const { roleName, createdBy } = roleData;
+
+      if (!roleName) {
+        return { success: false, message: "Role name is required" };
+      }
+
+      const createdAt = new Date().toISOString();
+
+      const query = `
+        INSERT INTO public."UserRoles" 
+          ("roleName", "createdAt", "createdBy") 
+        VALUES ($1, $2, $3)
+        RETURNING *;
+      `;
+
+      const result = await executeQuery(query, [
+        roleName,
+        createdAt,
+        createdBy || "System",
+      ]);
+
+      return {
+        success: true,
+        message: "Role added successfully",
+        data: result[0],
+      };
+    } catch (error) {
+      logger.error("Repository Error: Add Role", error);
+      return { success: false, message: "Internal Server Error" };
+    } finally {
+      client.release();
+    }
+  }
+
+  // 🔹 List Roles Repository
+  public async listRolesRepoV1() {
+    const client: PoolClient = await getClient();
+    try {
+      const query = `
+        SELECT 
+          id,
+          "roleName",
+          "createdAt",
+          "createdBy",
+          "updatedAt",
+          "updatedBy"
+        FROM public."UserRoles"
+        ORDER BY id ASC;
+      `;
+
+      const result = await executeQuery(query, []);
+
+      return {
+        success: true,
+        message: "Roles fetched successfully",
+        data: result,
+      };
+    } catch (error) {
+      logger.error("Repository Error: List Roles", error);
+      return { success: false, message: "Internal Server Error" };
+    } finally {
+      client.release();
+    }
+  }
+
+  public async updateRoleRepoV1(roleData: any) {
+    const client: PoolClient = await getClient();
+    try {
+      const { id, roleName, updatedBy } = roleData;
+
+      if (!id || !roleName) {
+        return {
+          success: false,
+          message: "Role ID and Role Name are required",
+        };
+      }
+
+      const updatedAt = new Date().toISOString();
+
+      const query = `
+        UPDATE public."UserRoles"
+        SET 
+          "roleName" = $1,
+          "updatedAt" = $2,
+          "updatedBy" = $3
+        WHERE id = $4
+        RETURNING *;
+      `;
+
+      const result = await executeQuery(query, [
+        roleName,
+        updatedAt,
+        updatedBy || "System",
+        id,
+      ]);
+
+      if (!result.length) {
+        return { success: false, message: "Role not found or update failed" };
+      }
+
+      return {
+        success: true,
+        message: "Role updated successfully",
+        data: result[0],
+      };
+    } catch (error) {
+      logger.error("Repository Error: Update Role", error);
+      return { success: false, message: "Internal Server Error" };
+    } finally {
+      client.release();
+    }
+  }
 }
