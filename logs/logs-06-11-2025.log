@@ -31,3 +31,221 @@
 {"level":"info","message":"Controller: List Roles","timestamp":"2025-11-06T04:27:55.365Z"}
 {"level":"info","message":"Controller: List Roles","timestamp":"2025-11-06T04:27:56.140Z"}
 {"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-06T04:37:45.255Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-06T05:09:52.166Z"}
+{"level":"info","message":"Controller: Login Cont","timestamp":"2025-11-06T05:44:02.531Z"}
+{"level":"info","message":"Controller: Login Cont","timestamp":"2025-11-06T05:45:12.175Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:47:34.966Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:47:35.286Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:48:28.569Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:48:29.152Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:50:00.843Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:50:01.203Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:50:22.931Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:50:23.299Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:51:21.609Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:51:22.014Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:51:38.410Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:51:38.788Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:52:37.708Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:52:38.086Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:53:07.196Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:53:07.591Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:53:11.709Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:53:11.806Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:53:13.139Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:53:13.219Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:53:40.210Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:53:40.789Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:53:51.106Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:53:51.515Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:55:56.257Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:55:56.631Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:56:50.644Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:56:51.010Z"}
+{"level":"info","message":"Controller: Login Cont","timestamp":"2025-11-06T05:57:47.805Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:57:59.692Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:58:00.019Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:59:15.534Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:59:15.959Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:59:22.017Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:59:22.095Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:59:27.273Z"}
+{"count":2,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:59:27.352Z"}
+{"level":"info","message":"Controller: Punch In","timestamp":"2025-11-06T05:59:30.125Z"}
+{"emp":2,"id":6,"level":"info","message":"Repository: Punch In recorded","timestamp":"2025-11-06T05:59:30.454Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T05:59:30.466Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T05:59:30.530Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T06:00:24.218Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T06:00:25.059Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T06:01:06.058Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T06:01:06.374Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T06:01:32.780Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T06:01:33.295Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-06T12:42:12.507Z"}
+{"address":"103.91.187.40","code":"EHOSTUNREACH","errno":-4073,"level":"error","message":"Controller Error: Get Add-Ons connect EHOSTUNREACH 103.91.187.40:5432","port":5432,"stack":"Error: connect EHOSTUNREACH 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"connect","timestamp":"2025-11-06T12:43:08.924Z"}
+{"address":"103.91.187.40","code":"EHOSTUNREACH","errno":-4073,"level":"error","message":"Controller Error: Get Packages connect EHOSTUNREACH 103.91.187.40:5432","port":5432,"stack":"Error: connect EHOSTUNREACH 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"connect","timestamp":"2025-11-06T12:43:08.936Z"}
+{"address":"103.91.187.40","code":"EHOSTUNREACH","errno":-4073,"level":"error","message":"Controller Error: Get Add-Ons connect EHOSTUNREACH 103.91.187.40:5432","port":5432,"stack":"Error: connect EHOSTUNREACH 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"connect","timestamp":"2025-11-06T12:43:08.939Z"}
+{"address":"103.91.187.40","code":"EHOSTUNREACH","errno":-4073,"level":"error","message":"Controller Error: Get Packages connect EHOSTUNREACH 103.91.187.40:5432","port":5432,"stack":"Error: connect EHOSTUNREACH 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"connect","timestamp":"2025-11-06T12:43:08.943Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T12:51:43.428Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T12:51:43.553Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T13:12:07.884Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T13:12:08.137Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-06T13:18:19.608Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T13:23:43.462Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T13:23:48.602Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"Controller Error: Get Add-Ons read ECONNRESET","stack":"Error: read ECONNRESET\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"read","timestamp":"2025-11-06T13:23:54.907Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-06T13:24:26.375Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:08:09.186Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:08:09.417Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:08:09.425Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:08:09.474Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:09:23.757Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:09:24.034Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:09:24.040Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:09:24.093Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:12.880Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:13.167Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:13.171Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:13.212Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:14.711Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:14.762Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:14.765Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:14.822Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:58.848Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:59.133Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:14:59.139Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:14:59.182Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:22:20.332Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:22:20.603Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:33:51.107Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:33:51.360Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:33:51.365Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:33:51.438Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T14:33:57.245Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T14:33:57.292Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:21:23.525Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:21:23.892Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:22:05.295Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:22:05.615Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:22:05.620Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:22:05.796Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:22:43.109Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:22:43.433Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:22:43.437Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:22:43.495Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:25:06.550Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:25:06.955Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:25:06.967Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:25:07.035Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:16.689Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:16.842Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:16.846Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:16.932Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:25:22.082Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:25:22.146Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:25:22.150Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:25:22.223Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:54.106Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:54.397Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:54.403Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:54.455Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:56.663Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:56.738Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:25:56.742Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:25:56.797Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:28:56.251Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:28:56.618Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:28:56.625Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:28:56.684Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:29:09.984Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:29:10.136Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:29:10.139Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:29:10.201Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:29:10.444Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:29:10.512Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:29:10.517Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:29:10.595Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:29:12.747Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:29:12.837Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:29:13.594Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:29:13.654Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:29:16.010Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:29:16.105Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:30:40.459Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:30:40.847Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:30:49.507Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:30:49.567Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:30:53.644Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:30:53.725Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:31:06.584Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:31:06.926Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:31:36.342Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:31:36.634Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:36:11.769Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:36:12.080Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:36:13.222Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:36:13.293Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:36:15.839Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:36:15.965Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:36:17.582Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:36:17.630Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:37:39.363Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:37:39.866Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:37:39.875Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:37:39.988Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:37:40.000Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:37:40.140Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:37:40.147Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:37:40.390Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:30.585Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:38:30.855Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:30.921Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:30.930Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:31.001Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:38:31.200Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:38:31.207Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:38:31.282Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:31.590Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:31.664Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:31.669Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:31.725Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:33.082Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:33.147Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:38:33.151Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:38:33.240Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:43:17.624Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:43:18.513Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:43:25.927Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:43:25.933Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:43:26.901Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:43:26.910Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:43:26.975Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:43:27.055Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:45:25.743Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:45:26.342Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:45:27.282Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:45:27.348Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:45:29.515Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:45:29.608Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:45:53.657Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:45:56.885Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:45:57.538Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:45:57.895Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:45:57.910Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:45:57.980Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:46:05.816Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:46:06.131Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:46:06.140Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:46:06.406Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:50:26.950Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:50:27.239Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-06T15:50:27.246Z"}
+{"level":"info","message":"Fetched all employees: 1","timestamp":"2025-11-06T15:50:27.296Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:50:27.301Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:50:27.357Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:50:27.363Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:50:27.416Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:50:30.147Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:50:30.200Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-06T15:50:30.205Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-06T15:50:30.263Z"}
