@@ -28,10 +28,12 @@ export class employeeRepository {
         INSERT INTO public.employees (
           "firstName","lastName",email,mobile,"secondaryMobile","doorNo",street,
           city,district,state,country,"workLocation","salesType",availability,
-          experience,skills,portfolio,reason,"createdAt","createdBy","isActive","isDelete"
-        ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22)
+          experience,skills,portfolio,reason,"profileImagePath","aadharCardPath",
+          "createdAt","createdBy","isActive","isDelete"
+        ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24)
         RETURNING *;
       `;
+
       const employeeValues = [
         userData.firstName,
         userData.lastName,
@@ -51,11 +53,14 @@ export class employeeRepository {
         JSON.stringify(userData.skills || []),
         userData.portfolio,
         userData.reason,
+        userData.profileImagePath || null,
+        userData.aadharCardPath || null,
         new Date().toISOString(),
         userData.createdBy || "system",
         "Y",
         "N",
       ];
+
       const employeeResult = await executeQuery(employeeQuery, employeeValues);
       const newEmployee = employeeResult[0];
       logger.info(`Employee created: ${newEmployee.email}`);

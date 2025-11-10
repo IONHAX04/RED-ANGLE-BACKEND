@@ -1,0 +1,64 @@
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-10T06:54:16.567Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T06:55:22.836Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T06:55:22.865Z"}
+{"level":"info","message":"Controller: Add Role","timestamp":"2025-11-10T06:55:35.611Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T06:55:35.917Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T06:56:30.006Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T06:56:30.306Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T06:57:14.955Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T06:57:15.130Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T06:57:15.156Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T06:57:15.183Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T06:57:20.339Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T06:57:20.358Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:07:23.755Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:07:23.885Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:07:23.893Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:07:23.914Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:08:11.939Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:08:12.073Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:09:50.748Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:09:50.875Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:09:52.299Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:09:52.459Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:10:00.434Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:10:00.466Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:11:40.558Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:11:40.803Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:11:43.667Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:11:43.688Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:11:43.704Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:11:43.724Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:11:45.883Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:11:45.905Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:11:46.337Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:11:46.360Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:16:29.971Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:16:30.106Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:16:30.113Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:16:30.133Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:16:31.781Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:16:31.803Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:16:32.031Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:16:32.159Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:17:28.473Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:17:28.588Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:17:28.593Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:17:28.715Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:17:30.040Z"}
+{"level":"info","message":"Fetched all employees: 2","timestamp":"2025-11-10T07:17:30.180Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:17:30.266Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:17:30.390Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-10T07:18:03.918Z"}
+{"level":"info","message":"Controller: Add Employee","timestamp":"2025-11-10T07:20:14.826Z"}
+{"level":"info","message":"Employee created: thirukumara12@gmail.com","timestamp":"2025-11-10T07:20:15.190Z"}
+{"level":"info","message":"Credentials created for employee: thirukumara12@gmail.com","timestamp":"2025-11-10T07:20:15.212Z"}
+{"level":"info","message":"Mail sending Log ","timestamp":"2025-11-10T07:20:15.214Z"}
+{"level":"info","message":"Email sent to thirukumara12@gmail.com: true","timestamp":"2025-11-10T07:20:19.400Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:20:19.930Z"}
+{"level":"info","message":"Fetched all employees: 3","timestamp":"2025-11-10T07:20:19.954Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-10T07:20:20.284Z"}
+{"level":"info","message":"Fetched all employees: 3","timestamp":"2025-11-10T07:20:20.303Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-10T07:23:11.063Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-10T07:23:33.187Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-10T07:23:54.803Z"}
