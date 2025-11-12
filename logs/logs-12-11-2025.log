@@ -1,0 +1,65 @@
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-12T03:45:23.301Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T03:46:42.571Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T03:46:42.795Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T03:46:42.864Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T03:46:42.890Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T03:46:44.909Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T03:46:44.949Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T03:46:45.000Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T03:46:45.382Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-12T03:54:27.954Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T03:59:08.355Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T03:59:10.945Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T03:59:49.140Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:04:25.093Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:04:25.264Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:04:25.276Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:04:25.295Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:04:27.086Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:04:27.109Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:04:27.185Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:04:27.301Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:06:42.308Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:08:50.906Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:08:51.026Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:08:52.901Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:08:52.926Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:08:52.994Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:08:53.128Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:09:03.734Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:09:03.851Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:09:06.526Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:09:06.549Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:09:06.613Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:09:06.731Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:09:09.685Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:09:09.702Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:09:09.710Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:09:09.731Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:32:14.659Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:32:14.814Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:32:14.844Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:32:14.885Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:32:16.567Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:32:16.588Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:32:16.738Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:32:16.895Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:34:40.528Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:34:40.653Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:34:43.036Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:34:43.399Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:34:43.415Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:34:43.434Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:34:44.892Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:34:44.914Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:34:45.449Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:34:45.568Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-12T04:41:23.631Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:41:36.228Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:41:36.569Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:41:36.812Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:41:36.855Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-12T04:42:12.964Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-12T04:42:13.104Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:42:13.182Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-12T04:42:13.409Z"}

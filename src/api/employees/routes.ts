@@ -12,6 +12,31 @@ export class employeeRoutes implements IRoute {
         config: { auth: false },
       },
       {
+        method: "POST",
+        path: "/api/v1/routes/addProfileImg",
+        handler: controller.addProfileImgControllerV1,
+        config: { auth: false },
+      },
+      {
+        method: "POST",
+        path: "/api/v1/routes/uploadProfileImage",
+        handler: controller.uploadProfileImageControllerV1,
+        config: {
+          auth: false,
+          payload: { output: "stream", parse: true, multipart: true },
+        },
+      },
+      {
+        method: "POST",
+        path: "/api/v1/routes/uploadAadharCard",
+        handler: controller.uploadAadharCardControllerV1,
+        config: {
+          auth: false,
+          payload: { output: "stream", parse: true, multipart: true },
+        },
+      },
+
+      {
         method: "GET",
         path: "/api/v1/routes/employees",
         handler: controller.getAllEmployeesController,

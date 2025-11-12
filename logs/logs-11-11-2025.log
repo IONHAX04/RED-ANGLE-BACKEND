@@ -1,0 +1,79 @@
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-11T09:37:58.502Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:50:22.507Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:50:22.697Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:50:23.167Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:50:23.222Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:10.498Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:10.650Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:11.613Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:11.662Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:59.067Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:54:59.289Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:55:46.476Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:55:46.675Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:55:53.400Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:55:53.463Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:05.684Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:05.896Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:12.240Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:12.307Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:24.535Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:24.700Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:29.506Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:29.564Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:45.576Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:45.769Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:48.527Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:56:48.592Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:04.402Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:04.601Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:10.828Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:10.903Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:14.620Z"}
+{"level":"info","message":"Controller: Get All Leads","timestamp":"2025-11-11T09:57:14.690Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T09:59:39.874Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T09:59:40.009Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T09:59:40.014Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T09:59:40.036Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-11T10:01:49.251Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-11T10:01:49.412Z"}
+{"level":"info","message":"Controller: Get Attendance","timestamp":"2025-11-11T10:01:49.416Z"}
+{"count":3,"level":"info","message":"Repository: Attendance fetched","timestamp":"2025-11-11T10:01:49.443Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T10:01:53.304Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T10:01:53.331Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T10:01:53.334Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T10:01:53.364Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:06:24.034Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T12:06:25.697Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:06:43.937Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:06:45.848Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T12:06:46.031Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"Controller Error: List Roles read ECONNRESET","stack":"Error: read ECONNRESET\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"read","timestamp":"2025-11-11T12:06:53.186Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:06:53.201Z"}
+{"address":"103.91.187.40","code":"ECONNABORTED","errno":-4079,"level":"error","message":"Controller Error: List Roles connect ECONNABORTED 103.91.187.40:5432","port":5432,"stack":"Error: connect ECONNABORTED 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","syscall":"connect","timestamp":"2025-11-11T12:06:54.890Z"}
+{"level":"error","message":"Error fetching employees: Database query failed : read ECONNRESET","stack":"Error: Database query failed : read ECONNRESET\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:24:11\n    at Generator.throw (<anonymous>)\n    at rejected (D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-11-11T12:06:54.921Z"}
+{"level":"error","message":"Error fetching employees: Database query failed : connect ECONNABORTED 103.91.187.40:5432","stack":"Error: Database query failed : connect ECONNABORTED 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:24:11\n    at Generator.throw (<anonymous>)\n    at rejected (D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-11-11T12:06:54.961Z"}
+{"level":"error","message":"Error fetching employees: Database query failed : connect ECONNABORTED 103.91.187.40:5432","stack":"Error: Database query failed : connect ECONNABORTED 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:24:11\n    at Generator.throw (<anonymous>)\n    at rejected (D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-11-11T12:06:55.021Z"}
+{"level":"error","message":"Error fetching employees: Database query failed : connect ECONNABORTED 103.91.187.40:5432","stack":"Error: Database query failed : connect ECONNABORTED 103.91.187.40:5432\n    at D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:24:11\n    at Generator.throw (<anonymous>)\n    at rejected (D:\\RedAngle\\RedAngleSoftware\\Backend\\RED-ANGLE-BACKEND\\src\\helper\\db.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-11-11T12:06:55.055Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:07:52.402Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T12:07:52.527Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:07:52.533Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T12:07:52.553Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:08:44.828Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T12:08:44.951Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T12:08:45.044Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T12:08:45.182Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:48:24.018Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T12:48:24.172Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T12:48:24.177Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T12:48:24.203Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-11T16:16:29.368Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T16:16:31.239Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T16:16:31.833Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T16:16:31.972Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T16:16:32.053Z"}
+{"level":"info","message":"Controller: Get All Employees","timestamp":"2025-11-11T16:16:37.022Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T16:16:37.107Z"}
+{"level":"info","message":"Fetched all employees: 5","timestamp":"2025-11-11T16:16:37.137Z"}
+{"level":"info","message":"Controller: List Roles","timestamp":"2025-11-11T16:16:38.857Z"}
+{"level":"info","message":"Server running ---- from server.ts","timestamp":"2025-11-11T16:32:55.535Z"}

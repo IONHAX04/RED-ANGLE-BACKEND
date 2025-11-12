@@ -1,15 +1,18 @@
+// fileHandler.ts
 import fs from "fs";
 import path from "path";
 import { Readable } from "stream";
 
+// Define the type for the file object that Hapi provides
 interface HapiFile {
   hapi: {
     filename: string;
     headers: Record<string, string>;
   };
-  pipe: (dest: NodeJS.WritableStream) => Readable;
+  pipe: (dest: NodeJS.WritableStream) => Readable; // Specify the pipe method
 }
 
+// Function to generate a unique filename
 const generateUniqueFilename = (originalName: string): string => {
   const characters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -20,45 +23,81 @@ const generateUniqueFilename = (originalName: string): string => {
     uniqueName += characters[randomIndex];
   }
 
-  const extension = path.extname(originalName);
-  return uniqueName + extension;
+  const extension = path.extname(originalName); // Get the original file extension
+  return uniqueName + extension; // Append the original extension to the unique name
 };
 
-export const storeEmployeeFile = async (
+// Function to store a file
+export const storeFile = async (
   file: HapiFile,
-  fileType: "profileImage" | "aadharCard"
+  uploadType: number // Renamed from `path` to `uploadType` for clarity
 ): Promise<string> => {
-  // base folder
-  const baseDir = path.join(process.cwd(), "./src/assets/employeeDocs");
+  let uploadDir: string;
 
-  // determine sub-folder based on type
-  const folderName =
-    fileType === "profileImage" ? "profileImages" : "aadharCards";
+  uploadDir = path.join(process.cwd(), "./src/assets/vendorDocs");
 
-  const uploadDir = path.join(baseDir, folderName);
+  // Determine the directory based on the uploadType value
+  if (uploadType === 5) {
+    uploadDir = path.join(process.cwd(), "./src/assets/FoodImage");
+  } else if (uploadType === 6) {
+    uploadDir = path.join(process.cwd(), "./src/assets/ProfileImages");
+  } else if (uploadType === 7) {
+    uploadDir = path.join(process.cwd(), "./src/assets/AadharDocs");
+  } else {
+    uploadDir = path.join(process.cwd(), "./src/assets/DOC");
+  }
 
-  // ensure folder exists
+  const uniqueFilename = generateUniqueFilename(file.hapi.filename);
+  const uploadPath = path.join(uploadDir, uniqueFilename);
+
+  // Create the directory if it doesn't exist
   if (!fs.existsSync(uploadDir)) {
     fs.mkdirSync(uploadDir, { recursive: true });
   }
 
-  // generate file name and path
-  const uniqueFilename = generateUniqueFilename(file.hapi.filename);
-  const uploadPath = path.join(uploadDir, uniqueFilename);
-
-  // create write stream
+  // Create a writable stream for the file
   const fileStream = fs.createWriteStream(uploadPath);
-  const readableStream: Readable = file as unknown as Readable;
 
   return new Promise((resolve, reject) => {
-    readableStream.pipe(fileStream);
+    const readableFileStream: Readable = file as unknown as Readable;
 
-    readableStream.on("end", () => {
-      resolve(`/assets/employeeDocs/${folderName}/${uniqueFilename}`);
+    readableFileStream.pipe(fileStream);
+
+    readableFileStream.on("end", () => {
+      resolve(uploadPath); // Resolve the promise with the path of the uploaded file
     });
 
-    readableStream.on("error", (err) => {
-      reject(err);
+    readableFileStream.on("error", (err: Error) => {
+      reject(err); // Reject the promise if there's an error
+    });
+  });
+};
+
+// Function to view a stored file
+export const viewFile = async (filePath: string): Promise<Buffer> => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(
+      filePath,
+      (err: NodeJS.ErrnoException | null, data?: Buffer) => {
+        if (err) {
+          return reject(err);
+        }
+        resolve(data!); // Return the file buffer
+      }
+    );
+  });
+};
+
+export const deleteFile = async (filePath: string): Promise<void> => {
+  console.log("filePath line ----------------- 94 \n", filePath);
+  return new Promise((resolve, reject) => {
+    fs.unlink(filePath, (err) => {
+      if (err) {
+        console.error("Error deleting old file:", err);
+        return reject(err);
+      }
+      console.log("Old file deleted successfully");
+      resolve();
     });
   });
 };

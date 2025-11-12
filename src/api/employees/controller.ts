@@ -1,7 +1,6 @@
 import * as Hapi from "@hapi/hapi";
 import { employeeRepository } from "./repository";
 import logger from "../../helper/logger";
-import { storeEmployeeFile } from "../../helper/storage";
 
 export class employeeController {
   public repo = new employeeRepository();
@@ -14,36 +13,103 @@ export class employeeController {
     try {
       const payload = request.payload;
 
-      // Handle file uploads if present
-      let profileImagePath = null;
-      let aadharCardPath = null;
-
-      if (payload.profileImage && payload.profileImage.hapi) {
-        profileImagePath = await storeEmployeeFile(
-          payload.profileImage,
-          "profileImage"
-        );
-      }
-      if (payload.aadharCard && payload.aadharCard.hapi) {
-        aadharCardPath = await storeEmployeeFile(
-          payload.aadharCard,
-          "aadharCard"
-        );
-      }
-
-      // Merge file paths into payload
-      const finalPayload = {
-        ...payload,
-        profileImagePath,
-        aadharCardPath,
-      };
-
-      const result = await this.repo.addEmployeeRepoV1(finalPayload, null);
+      const result = await this.repo.addEmployeeRepoV1(payload, null);
       return h.response(result).code(result.success ? 201 : 400);
     } catch (error) {
       logger.error("Controller Error: Add Employee", error);
       return h
         .response({ success: false, message: "Internal Server Error" })
+        .code(500);
+    }
+  };
+
+  public addProfileImgControllerV1 = async (
+    request: any,
+    response: Hapi.ResponseToolkit
+  ): Promise<any> => {
+    logger.info(`GET URL REQ => ${request.url.href}`);
+    try {
+      // const decodedToken = { id: request.plugins.token.id };
+      const decodedToken = { id: 1 };
+      console.log("decodedToken", decodedToken);
+      let entity;
+
+      entity = await this.repo.FoodImgV1(request.payload, decodedToken);
+
+      if (entity.success) {
+        return response.response(entity).code(201);
+      }
+      return response.response(entity).code(200);
+    } catch (error) {
+      logger.error(`GET URL REQ => ${request.url.href}`, error);
+      return response
+        .response({
+          success: false,
+          message:
+            error instanceof Error
+              ? error.message
+              : "An unknown error occurred",
+        })
+        .code(500);
+    }
+  };
+
+  public uploadProfileImageControllerV1 = async (
+    request: any,
+    response: Hapi.ResponseToolkit
+  ) => {
+    try {
+      const decodedToken = { id: 1 }; // Replace with token logic later
+      const file = request.payload.profileImage;
+
+      if (!file) {
+        return response
+          .response({ success: false, message: "No file uploaded" })
+          .code(400);
+      }
+
+      const entity = await this.repo.storeProfileImage(file, decodedToken);
+
+      if (entity.success) return response.response(entity).code(201);
+      return response.response(entity).code(200);
+    } catch (error) {
+      console.error("Error uploading profile image:", error);
+      return response
+        .response({
+          success: false,
+          message:
+            error instanceof Error ? error.message : "Unknown error occurred",
+        })
+        .code(500);
+    }
+  };
+
+  public uploadAadharCardControllerV1 = async (
+    request: any,
+    response: Hapi.ResponseToolkit
+  ) => {
+    try {
+      const decodedToken = { id: 1 };
+      const file = request.payload.aadharCard;
+
+      if (!file) {
+        return response
+          .response({ success: false, message: "No file uploaded" })
+          .code(400);
+      }
+
+      const entity = await this.repo.storeAadharCard(file, decodedToken);
+
+      if (entity.success) return response.response(entity).code(201);
+      return response.response(entity).code(200);
+    } catch (error) {
+      console.error("Error uploading Aadhaar card:", error);
+      return response
+        .response({
+          success: false,
+          message:
+            error instanceof Error ? error.message : "Unknown error occurred",
+        })
         .code(500);
     }
   };
@@ -68,13 +134,21 @@ export class employeeController {
   };
 
   public updateEmployeeController = async (
-    req: any,
+    request: any,
     h: Hapi.ResponseToolkit
   ) => {
-    const id = Number(req.params.id);
-    logger.info(`Controller: Update Employee ID ${id}`);
-    const result = await this.repo.updateEmployee(id, req.payload);
-    return h.response(result).code(result.success ? 200 : 400);
+    logger.info("Controller: Update Employee");
+    try {
+      const id = Number(request.params.id);
+      const payload = request.payload;
+      const result = await this.repo.updateEmployeeRepoV1(id, payload);
+      return h.response(result).code(result.success ? 200 : 400);
+    } catch (error) {
+      logger.error("Controller Error: Update Employee", error);
+      return h
+        .response({ success: false, message: "Internal Server Error" })
+        .code(500);
+    }
   };
 
   public deleteEmployeeController = async (
